@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+            <string>Helvetica-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NMq-Tq-hBe">
+            <objects>
+                <viewController id="cgN-Cu-Hxy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hza-VL-FAo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="mBy-Df-gpr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="K3z-ZZ-YuQ">
+                                <rect key="frame" x="67.5" y="20" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="sni-gm-rsh"/>
+                                    <constraint firstAttribute="width" constant="240" id="uGH-Y0-88g"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2u-0G-0Cg">
+                                <rect key="frame" x="0.0" y="156" width="375" height="291.5"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="First Name*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffg-hV-GrM" customClass="MadokaTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="45" y="8" width="285" height="31.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Last Name*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bom-fT-cIX" customClass="MadokaTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="45" y="55.5" width="285" height="31.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iX5-lO-fpc" customClass="MadokaTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="46" y="103" width="285" height="31.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H4M-Ye-cST" customClass="MadokaTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="46" y="150.5" width="285" height="31.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Confirm Password*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C1Z-B5-bXS" customClass="MadokaTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="45" y="198" width="285" height="31.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="iX5-lO-fpc" firstAttribute="leading" secondItem="G2u-0G-0Cg" secondAttribute="leading" constant="46" id="2cu-1S-fZ4"/>
+                                    <constraint firstItem="C1Z-B5-bXS" firstAttribute="top" secondItem="H4M-Ye-cST" secondAttribute="bottom" constant="16" id="2n0-dZ-3Mm"/>
+                                    <constraint firstAttribute="trailing" secondItem="C1Z-B5-bXS" secondAttribute="trailing" constant="45" id="4Fa-g3-DeM"/>
+                                    <constraint firstAttribute="trailing" secondItem="iX5-lO-fpc" secondAttribute="trailing" constant="44" id="5CG-9O-xZH"/>
+                                    <constraint firstItem="C1Z-B5-bXS" firstAttribute="height" secondItem="ffg-hV-GrM" secondAttribute="height" id="6tl-Wr-PXe"/>
+                                    <constraint firstItem="H4M-Ye-cST" firstAttribute="width" secondItem="ffg-hV-GrM" secondAttribute="width" id="8EQ-dQ-ssD"/>
+                                    <constraint firstAttribute="trailing" secondItem="ffg-hV-GrM" secondAttribute="trailing" constant="45" id="9M9-Ym-7gJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bom-fT-cIX" secondAttribute="trailing" constant="45" id="9rp-Db-KVT"/>
+                                    <constraint firstItem="Bom-fT-cIX" firstAttribute="leading" secondItem="G2u-0G-0Cg" secondAttribute="leading" constant="45" id="Cv7-B1-PPh"/>
+                                    <constraint firstItem="ffg-hV-GrM" firstAttribute="leading" secondItem="G2u-0G-0Cg" secondAttribute="leading" constant="45" id="GCH-2a-YT2"/>
+                                    <constraint firstItem="iX5-lO-fpc" firstAttribute="width" secondItem="ffg-hV-GrM" secondAttribute="width" id="GPC-TZ-lam"/>
+                                    <constraint firstAttribute="bottom" secondItem="C1Z-B5-bXS" secondAttribute="bottom" constant="62" id="Gwj-wf-YOz"/>
+                                    <constraint firstItem="C1Z-B5-bXS" firstAttribute="width" secondItem="ffg-hV-GrM" secondAttribute="width" id="KO3-fq-qBK"/>
+                                    <constraint firstItem="Bom-fT-cIX" firstAttribute="height" secondItem="ffg-hV-GrM" secondAttribute="height" id="Ry4-mr-glW"/>
+                                    <constraint firstItem="iX5-lO-fpc" firstAttribute="height" secondItem="ffg-hV-GrM" secondAttribute="height" id="VAJ-Vo-gHC"/>
+                                    <constraint firstItem="H4M-Ye-cST" firstAttribute="top" secondItem="iX5-lO-fpc" secondAttribute="bottom" constant="16" id="Zn1-96-i7s"/>
+                                    <constraint firstItem="H4M-Ye-cST" firstAttribute="height" secondItem="ffg-hV-GrM" secondAttribute="height" id="aGo-F4-F5m"/>
+                                    <constraint firstItem="C1Z-B5-bXS" firstAttribute="leading" secondItem="G2u-0G-0Cg" secondAttribute="leading" constant="45" id="bQB-OU-r7i"/>
+                                    <constraint firstItem="ffg-hV-GrM" firstAttribute="top" secondItem="G2u-0G-0Cg" secondAttribute="top" constant="8" id="e1W-82-KKh"/>
+                                    <constraint firstAttribute="trailing" secondItem="H4M-Ye-cST" secondAttribute="trailing" constant="44" id="htc-Ps-Ibc"/>
+                                    <constraint firstItem="Bom-fT-cIX" firstAttribute="top" secondItem="ffg-hV-GrM" secondAttribute="bottom" constant="16" id="lWd-K5-xoH"/>
+                                    <constraint firstItem="Bom-fT-cIX" firstAttribute="width" secondItem="ffg-hV-GrM" secondAttribute="width" id="sSz-Pi-PUA"/>
+                                    <constraint firstItem="H4M-Ye-cST" firstAttribute="leading" secondItem="G2u-0G-0Cg" secondAttribute="leading" constant="46" id="tv2-o6-MoD"/>
+                                    <constraint firstItem="iX5-lO-fpc" firstAttribute="top" secondItem="Bom-fT-cIX" secondAttribute="bottom" constant="16" id="woD-BM-etT"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APP-9n-b1v">
+                                <rect key="frame" x="45" y="478" width="285" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="Nkq-jQ-kI9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="NEXT" backgroundImage="next_bg">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G2u-0G-0Cg" firstAttribute="top" secondItem="K3z-ZZ-YuQ" secondAttribute="bottom" constant="8" id="1sq-u3-gvr"/>
+                            <constraint firstItem="mBy-Df-gpr" firstAttribute="top" secondItem="hza-VL-FAo" secondAttribute="top" id="5m8-v8-6tT"/>
+                            <constraint firstItem="mBy-Df-gpr" firstAttribute="leading" secondItem="Il5-KB-qIu" secondAttribute="leading" id="61c-90-iwX"/>
+                            <constraint firstItem="APP-9n-b1v" firstAttribute="leading" secondItem="Il5-KB-qIu" secondAttribute="leading" constant="45" id="9fq-Oz-yU3"/>
+                            <constraint firstItem="K3z-ZZ-YuQ" firstAttribute="centerX" secondItem="Il5-KB-qIu" secondAttribute="centerX" id="HAG-99-RnZ"/>
+                            <constraint firstItem="K3z-ZZ-YuQ" firstAttribute="top" secondItem="Il5-KB-qIu" secondAttribute="top" id="MPd-fi-OG6"/>
+                            <constraint firstItem="Il5-KB-qIu" firstAttribute="trailing" secondItem="G2u-0G-0Cg" secondAttribute="trailing" id="P1l-U1-k3g"/>
+                            <constraint firstItem="G2u-0G-0Cg" firstAttribute="centerX" secondItem="K3z-ZZ-YuQ" secondAttribute="centerX" id="PbG-Wj-HP7"/>
+                            <constraint firstItem="Il5-KB-qIu" firstAttribute="bottom" secondItem="mBy-Df-gpr" secondAttribute="bottom" id="Wvh-So-h7X"/>
+                            <constraint firstItem="Il5-KB-qIu" firstAttribute="trailing" secondItem="APP-9n-b1v" secondAttribute="trailing" constant="45" id="Y5e-7t-QgX"/>
+                            <constraint firstItem="APP-9n-b1v" firstAttribute="top" secondItem="G2u-0G-0Cg" secondAttribute="bottom" constant="30.5" id="gwo-WK-kRg"/>
+                            <constraint firstItem="mBy-Df-gpr" firstAttribute="trailing" secondItem="Il5-KB-qIu" secondAttribute="trailing" id="lMa-o2-Fbz"/>
+                            <constraint firstItem="G2u-0G-0Cg" firstAttribute="leading" secondItem="Il5-KB-qIu" secondAttribute="leading" id="oKe-N0-ofM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Il5-KB-qIu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A4c-g8-yiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="160.56971514242881"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="720" height="1280"/>
+        <image name="icon" width="301" height="305"/>
+        <image name="next_bg" width="593" height="89"/>
+    </resources>
+</document>

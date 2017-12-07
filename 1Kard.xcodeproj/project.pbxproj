@@ -15,6 +15,7 @@
 		84A2513A1FD904A200D324C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A251381FD904A200D324C5 /* LaunchScreen.storyboard */; };
 		84A251451FD904A200D324C5 /* _KardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A251441FD904A200D324C5 /* _KardTests.swift */; };
 		84A251501FD904A200D324C5 /* _KardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2514F1FD904A200D324C5 /* _KardUITests.swift */; };
+		B0049FF41FD90888000BFFFD /* Sigup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0049FF31FD90888000BFFFD /* Sigup.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		84A2514F1FD904A200D324C5 /* _KardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _KardUITests.swift; sourceTree = "<group>"; };
 		84A251511FD904A200D324C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD0692236557302E53ABE730 /* Pods_1Kard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1Kard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0049FF31FD90888000BFFFD /* Sigup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sigup.storyboard; sourceTree = "<group>"; };
 		D209700403A1A7DA171129C7 /* Pods-1Kard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1Kard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-1Kard/Pods-1Kard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				84A251361FD904A200D324C5 /* Assets.xcassets */,
 				84A251381FD904A200D324C5 /* LaunchScreen.storyboard */,
 				84A2513B1FD904A200D324C5 /* Info.plist */,
+				B0049FF31FD90888000BFFFD /* Sigup.storyboard */,
 			);
 			path = 1Kard;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				84A2513A1FD904A200D324C5 /* LaunchScreen.storyboard in Resources */,
 				84A251371FD904A200D324C5 /* Assets.xcassets in Resources */,
 				84A251351FD904A200D324C5 /* Main.storyboard in Resources */,
+				B0049FF41FD90888000BFFFD /* Sigup.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
